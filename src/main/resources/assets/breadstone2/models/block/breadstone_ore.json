@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "breadstone2:blocks/breadstone_ore"
+	}
+}

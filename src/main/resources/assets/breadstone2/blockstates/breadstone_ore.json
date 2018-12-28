@@ -1,0 +1,10 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "breadstone2:breadstone_ore"
+	},
+	"variants": {
+		"normal": [{}],
+		"inventory": [{}]
+	}
+}

@@ -1,0 +1,11 @@
+.git
+.gradle
+.settings
+bin
+build
+/libs/*
+.classpath
+.autocomplete-classpath
+.project
+*.launch
+atom-use-libs
