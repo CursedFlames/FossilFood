@@ -1,4 +1,4 @@
-package cursedflames.breadstone2.block;
+package cursedflames.fossilfood.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;

@@ -1,7 +1,7 @@
-package cursedflames.breadstone2.block;
+package cursedflames.fossilfood.block;
 
-import cursedflames.breadstone2.Breadstone;
-import cursedflames.breadstone2.item.ModItems;
+import cursedflames.fossilfood.FossilFood;
+import cursedflames.fossilfood.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -14,7 +14,7 @@ import net.minecraft.world.IBlockAccess;
 public class BlockBreadstoneOre extends Block {
 	public BlockBreadstoneOre() {
 		super(Material.ROCK);
-		setUnlocalizedName(Breadstone.MODID+".breadstone_ore");
+		setUnlocalizedName(FossilFood.MODID+".breadstone_ore");
 		setRegistryName("breadstone_ore");
 		this.blockHardness = 2.5F;
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);

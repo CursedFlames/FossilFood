@@ -1,7 +1,7 @@
-package cursedflames.breadstone2.recipe;
+package cursedflames.fossilfood.recipe;
 
-import cursedflames.breadstone2.block.ModBlocks;
-import cursedflames.breadstone2.item.ModItems;
+import cursedflames.fossilfood.block.ModBlocks;
+import cursedflames.fossilfood.item.ModItems;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraftforge.event.RegistryEvent;

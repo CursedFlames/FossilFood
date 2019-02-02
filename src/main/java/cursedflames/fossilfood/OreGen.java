@@ -1,8 +1,8 @@
-package cursedflames.breadstone2;
+package cursedflames.fossilfood;
 
 import java.util.Random;
 
-import cursedflames.breadstone2.block.ModBlocks;
+import cursedflames.fossilfood.block.ModBlocks;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;

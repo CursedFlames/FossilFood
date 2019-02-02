@@ -1,4 +1,4 @@
-package cursedflames.breadstone2.proxy;
+package cursedflames.fossilfood.proxy;
 
 public interface ISideProxy {
 	public default String translateWithArgs(String string, Object... args) {

@@ -1,7 +1,7 @@
 [
 {
-  "modid": "breadstone2",
-  "name": "Breadstone 2",
+  "modid": "fossilfood",
+  "name": "Fossil Food",
   "description": "A spiritual successor to Breadstone.",
   "version": "${version}",
   "mcversion": "${mcversion}",

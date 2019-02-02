@@ -19,9 +19,9 @@ reobf {
 }
 
 
-version = "1.12.2-0.0.1"
-group = "cursedflames.breadstone2" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "Breadstone2"
+version = "1.12.2-0.0.2"
+group = "cursedflames.fossilfood" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "FossilFood"
 
 sourceCompatibility = targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 compileJava {

@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "breadstone2:items/fossilbread"
+		"layer0": "fossilfood:items/fossiltoast"
 	}
 }

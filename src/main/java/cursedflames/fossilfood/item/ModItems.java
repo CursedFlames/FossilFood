@@ -1,6 +1,6 @@
-package cursedflames.breadstone2.item;
+package cursedflames.fossilfood.item;
 
-import cursedflames.breadstone2.Breadstone;
+import cursedflames.fossilfood.FossilFood;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemFood;
@@ -15,10 +15,10 @@ public class ModItems {
 	public static void registerItems(Register<Item> event) {
 		event.getRegistry()
 				.register(fossilBread = new ItemFood(5, 6, false).setRegistryName("fossilbread")
-						.setUnlocalizedName(Breadstone.MODID+".fossilbread"));
+						.setUnlocalizedName(FossilFood.MODID+".fossilbread"));
 		event.getRegistry()
 				.register(fossilToast = new ItemFood(8, 9, false).setRegistryName("fossiltoast")
-						.setUnlocalizedName(Breadstone.MODID+".fossiltoast"));
+						.setUnlocalizedName(FossilFood.MODID+".fossiltoast"));
 	}
 
 	public static void registerModels(ModelRegistryEvent event) {

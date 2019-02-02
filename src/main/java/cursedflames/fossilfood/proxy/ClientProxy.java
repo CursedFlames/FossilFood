@@ -1,4 +1,4 @@
-package cursedflames.breadstone2.proxy;
+package cursedflames.fossilfood.proxy;
 
 import net.minecraft.client.resources.I18n;
 

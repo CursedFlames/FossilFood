@@ -1,11 +1,11 @@
-package cursedflames.breadstone2;
+package cursedflames.fossilfood;
 
 import org.apache.logging.log4j.Logger;
 
-import cursedflames.breadstone2.block.ModBlocks;
-import cursedflames.breadstone2.item.ModItems;
-import cursedflames.breadstone2.proxy.ISideProxy;
-import cursedflames.breadstone2.recipe.ModCrafting;
+import cursedflames.fossilfood.block.ModBlocks;
+import cursedflames.fossilfood.item.ModItems;
+import cursedflames.fossilfood.proxy.ISideProxy;
+import cursedflames.fossilfood.recipe.ModCrafting;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -21,17 +21,17 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-@Mod(modid = Breadstone.MODID, useMetadata = true)
+@Mod(modid = FossilFood.MODID, useMetadata = true)
 @Mod.EventBusSubscriber
-public class Breadstone {
+public class FossilFood {
 	@Mod.Instance
-	public static Breadstone instance;
+	public static FossilFood instance;
 
-	public static final String MODID = "breadstone2";
+	public static final String MODID = "fossilfood";
 
 	public static Logger logger;
 
-	@SidedProxy(clientSide = "cursedflames.breadstone2.proxy.ClientProxy", serverSide = "cursedflames.breadstone2.proxy.ServerProxy")
+	@SidedProxy(clientSide = "cursedflames.fossilfood.proxy.ClientProxy", serverSide = "cursedflames.fossilfood.proxy.ServerProxy")
 	public static ISideProxy proxy;
 
 	@Mod.EventHandler

@@ -1,9 +1,9 @@
-package cursedflames.breadstone2;
+package cursedflames.fossilfood;
 
 import net.minecraftforge.common.config.Config;
 import net.minecraftforge.common.config.Config.Comment;
 
-@Config(modid = Breadstone.MODID)
+@Config(modid = FossilFood.MODID)
 public class ModConfig {
 	@Comment("The number of veins of breadstone ore that will try to spawn per chunk")
 	public static int veinsPerChunk = 7;
