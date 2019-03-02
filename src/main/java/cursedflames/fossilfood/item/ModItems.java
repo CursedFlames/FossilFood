@@ -14,10 +14,10 @@ public class ModItems {
 
 	public static void registerItems(Register<Item> event) {
 		event.getRegistry()
-				.register(fossilBread = new ItemFood(5, 6, false).setRegistryName("fossilbread")
+				.register(fossilBread = new ItemFood(5, 0.6f, false).setRegistryName("fossilbread")
 						.setUnlocalizedName(FossilFood.MODID+".fossilbread"));
 		event.getRegistry()
-				.register(fossilToast = new ItemFood(8, 9, false).setRegistryName("fossiltoast")
+				.register(fossilToast = new ItemFood(8, 0.8f, false).setRegistryName("fossiltoast")
 						.setUnlocalizedName(FossilFood.MODID+".fossiltoast"));
 	}
 
